@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="utf-8">
+	<title>Proba </title>
+	<meta name="description" content="Projekt"/>
+	<meta name= "keywords" content="projekt,studia,KCK" />
+	
+	<style>
+	#container
+	{
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		background-image: url("http://ahomeideas.co/wp-content/uploads/2015/12/Wood-floor-large.jpg");
+	}
+	
+	#owoce
+	{
+		background-image: url("http://i.iplsc.com/owoce-sa-lepsze-niz-suplementy/0001UCA2YQTW4SP6-C116-F4.jpg");
+		background-size: 210px 100px;
+		background-repeat: no-repeat;
+		width: 200px;
+		text-align: center;
+		padding:  5px;
+		float: left;
+		margin: 10px;
+		border-style: solid;
+		border-width: 5px;
+	}
+	
+	#warzywa
+	{
+		background-image: url("http://realbody.pl/wp-content/uploads/2015/08/warszywa.jpg");
+		background-size: 210px 100px;
+		background-repeat: no-repeat;
+		width: 200px;
+		text-align: center;
+		padding:  5px;
+		float: left;
+		margin: 10px;
+		border-style: solid;
+		border-width: 5px;
+	}
+	
+		#slodycze
+	{
+		background-image: url("http://d.webgenerator24.pl/k/r//5x/xk/smxw4z4sgsksws8kckk088gw8gw.600.jpg");
+		background-size: 210px 100px;
+		background-repeat: no-repeat;
+		width: 200px;
+		text-align: center;
+		padding:  5px;
+		float: left;
+		margin: 10px;
+		border-style: solid;
+		border-width: 5px;
+	}
+	
+		#chemia
+	{
+		background-image: url("http://zakupywrzeszowie.pl/img/dynamic/large/2396.jpg");
+		background-size: 210px 100px;
+		background-repeat: no-repeat;
+		width: 200px;
+		text-align: center;
+		padding:  5px;
+		float: left;
+		margin: 10px;
+		border-style: solid;
+		border-width: 5px;
+	}
+	
+		#bot
+	{
+		background-image: url("http://game2.margonem.pl/obrazki/npc/hum/mnich01.gif");
+		background-repeat: no-repeat;
+		width: 50px;
+		height: 50px;
+		padding:  5px;
+		clear: both;
+		margin: 10px;
+		/*border-style: solid;*/
+		/*border-width: 5px;*/
+		font-size: 7px;
+		position: relative;
+	}
+
+	
+	</style>
+	
+</head>
+
+<body>
+	
+	<div id="container">
+	
+		<div id="owoce">
+		<h1>Owoce</h1>
+		</div>
+		
+		<div id="warzywa">
+		<h1>Warzywa</h1>
+		</div>
+		
+		<div id="slodycze">
+		<h1>Słodycze</h1>
+		</div>
+		
+		<div id="chemia">
+		<h1>Chemia</h1>
+		</div>
+		
+		<div id="bot">
+		</div>
+		
+		<input type="button" value="Lewo" onclick="moveLeft();" />
+		<input type="button" value="Prawo" onclick="moveRight();" />
+		
+	
+		<form>
+		 Co mam zrobić:<br>
+		  <input type="text" name="do">
+		  <input type="submit" value="Potwierdź">
+		</form>
+	
+	</div>
+	
+	
+	
+	<script type="text/javascript">
+         <!--
+            var imgObj = null;
+            
+            function init(){
+               imgObj = document.getElementById('bot');
+               imgObj.style.position= 'relative'; 
+               imgObj.style.left = '0px'; 
+            }
+            
+            function moveRight()
+			{
+               imgObj.style.left = parseInt(imgObj.style.left) + 250 + 'px';
+            }
+			function moveLeft()
+			{
+               imgObj.style.left = parseInt(imgObj.style.left) - 250 + 'px';
+            }
+			
+            
+            window.onload =init;
+         //-->
+      </script>
+	
+
+</body>
+
+</html>
